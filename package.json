@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "mailgun-js": "^0.22.0",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.1",
+    "uuid": "^9.0.1"
+  }
+}
