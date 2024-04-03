@@ -47,7 +47,7 @@ functions.cloudEvent('sendVerificationEmail', async cloudEvent => {
     const verificationToken = Buffer.from(JSON.stringify(data)).toString('base64');
 
     // Construct the verification link (replace with your actual domain)
-    const verificationLink = `https://manashree.me:443/v1/user/verify-email?token=${verificationToken}`;
+    const verificationLink = `https://manashree.me/v1/user/verify-email?token=${verificationToken}`;
 
 
     // Email options
